@@ -1,0 +1,91 @@
+/* 🌈 Modern Youth Style - Karang Taruna */
+:root {
+  --biru: #2196f3;
+  --tosca: #26a69a;
+  --oranye: #ff9800;
+  --putih: #ffffff;
+  --abu: #f4f4f4;
+  --gelap: #333;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--abu);
+  color: var(--gelap);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, var(--biru), var(--tosca));
+  color: var(--putih);
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background: var(--putih);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: var(--biru);
+  margin-top: 0;
+}
+
+a {
+  color: var(--biru);
+  text-decoration: none;
+  transition: 0.2s;
+}
+a:hover { color: var(--oranye); }
+
+button, .btn {
+  background: var(--biru);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover, .btn:hover { background: var(--oranye); }
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+.table th {
+  background: var(--biru);
+  color: white;
+  padding: 8px;
+}
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  background: var(--biru);
+  color: white;
+  border-radius: 0 0 10px 10px;
+}
